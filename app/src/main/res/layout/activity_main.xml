@@ -3,6 +3,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+"<LinearLayout ...>: Este es el elemento raíz del diseño. LinearLayout es un contenedor que organiza sus elementos secundarios en una sola columna o fila.
+    xmlns:android="http://schemas.android.com/apk/res/android": Declara el espacio de nombres de Android, que permite usar atributos específicos de Android.
+    android:layout_width="match_parent": Establece el ancho del LinearLayout para que coincida con el ancho de su contenedor principal (la pantalla).
+    android:layout_height="match_parent": Establece la altura del LinearLayout para que coincida con la altura de su contenedor principal (la pantalla).
+    android:orientation="vertical": Especifica que los elementos secundarios del LinearLayout se organizarán en una columna vertical."
 
     <EditText
         android:id="@+id/editTextUbicacion"
